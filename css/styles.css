@@ -1,0 +1,24 @@
+ul.publications {
+  list-style-type: none;
+}
+
+ul.publications li {
+  padding-bottom: 1em;
+}
+
+ul.publications li span.title {
+  font-size: 1.2em;
+}
+
+a.contact img {
+  border-radius: 50%;
+}
+
+a.contact:hover img {
+  background: #007bff;
+}
+
+span.authors,
+span.periodical {
+  display: block;
+}
