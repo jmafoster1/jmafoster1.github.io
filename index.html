@@ -15,7 +15,25 @@
 
 <body>
   <div class="container">
-    <div class="jumbotron" style="padding-bottom: 2rem">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(233, 236, 239)">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="publications.html">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="software.html">Software </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="jumbotron" style="padding-bottom: 2rem; padding-top: 0; border-radius: 0;">
       <h1 class="display-4">Michael Foster</h1>
       <p class="lead">Research Assosiate at the Department of Computer Science, at the University of Sheffield.</p>
       <hr class="my-4">
@@ -40,147 +58,8 @@
         </div>
       </div>
     </div><!-- jumbotron -->
-    <div class="row">
-      <div class="col-md-12">
-        <h2>Publications</h2>
-        <hr>
-        <h3>2024</h3>
-        <ul class="publications">
-          <li>
-            <span class="row">
-              <span class="title col-md-10"> Bounding random test set size with computational learning theory </span>
-              <span class="pdf col-md-2 text-right"><a href="https://eprints.whiterose.ac.uk/211547/">PDF</a></span>
-            </span>
-            <span class="authors">Neil Walkinshaw, Michael Foster, José Miguel Rojas, Robert M. Hierons</span>
-            <span class="periodical">ACM International Conference on the Foundations of Software Engineering (FSE), 2024</span>
-          </li>
-          <li>
-            <span class="row">
-              <span class="title col-md-10"><a href="https://pubmed.ncbi.nlm.nih.gov/38389317/">Do maternal haemodynamics have a causal influence on treatment for gestational diabetes?</a></span>
-              <span class="pdf col-md-2 text-right"><a href="https://eprints.whiterose.ac.uk/208650/">PDF</a></span>
-            </span>
-            <span class="authors">Abigail R. Anness, Michael Foster, Mohammed W. Osman, David Webb, Thompson Robinson, Asma Khalil, Neil Walkinshaw, Hatem A. Mousa</span>
-            <span class="periodical">Journal of Obstetrics and Gynaecology</span>
-          </li>
-          <li>
-            <span class="row">
-              <span class="title col-md-10">Causal Test Adequacy</span>
-              <span class="pdf col-md-2 text-right"><a href="https://eprints.whiterose.ac.uk/208652/">PDF</a></span>
-            </span>
-            <span class="authors"><strong>Michael Foster</strong>, Christopher Wild, Robert M. Heirons, Neil Walkinshaw</span>
-            <span class="periodical">In IEEE Conference on Software Testing, Verification and Validation (ICST), 2024</span>
-          </li>
-        </ul>
-        <h3>2023</h3>
-        <ul class="publications">
-          <li>
-            <span class="row">
-              <span class="title col-md-10"><a href="https://doi.org/10.1007/978-981-99-7584-6_3">Active Inference of EFSMs Without Reset</a></span>
-              <span class="pdf col-md-2 text-right"><a href="https://eprints.whiterose.ac.uk/207973/">PDF</a></span>
-            </span>
-            <span class="authors"><strong>Michael Foster</strong>, Roland Groz, Catherine Oriat, Adenilso Simao, Germán Vega, Neil Walkinshaw</span>
-            <span class="periodical">International Conference on Formal Engineering Methods, 2023</span>
-          </li>
-          <li>
-            <span class="row">
-              <span class="title col-md-10"><a href="https://proceedings.mlr.press/v217/groz23a.html">Active Inference of Extended Finite State Models of Software Systems</a></span>
-              <span class="pdf col-md-2 text-right"><a href="https://eprints.whiterose.ac.uk/206029/">PDF</a></span>
-            </span>
-            <span class="authors">Roland Groz, Catherine Oriat, Germán Vega, Adenilso Simao, <strong>Michael Foster</strong>, Neil Walkinshaw</span>
-            <span class="periodical">International Conference on Grammatical Inference, 2023</span>
-          </li>
-          <li>
-            <span class="row">
-              <span class="title col-md-10"><a href="https://doi.org/10.1145/3607184">Testing Causality in Scientific Modelling Software</a></span>
-              <span class="pdf col-md-2 text-right"><a href="https://dl.acm.org/doi/pdf/10.1145/3607184">PDF</a></span>
-            </span>
-            <span class="authors">Andrew G Clark, <strong>Michael Foster</strong>, Benedikt Prifling, Neil Walkinshaw, Robert M Hierons, Volker Schmidt, Robert D Turner</span>
-            <span class="periodical">Transactions on Software Engineering Methods, 2023</span>
-          </li>
-          <li>
-            <span class="row">
-              <span class="title col-md-10"><a href="https://ieeexplore.ieee.org/abstract/document/10132179">Metamorphic Testing with Causal Graphs</a></span>
-              <span class="pdf col-md-2 text-right"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10132179">PDF</a></span>
-            </span>
-            <span class="authors">Andrew G. Clark, <strong>Michael Foster</strong>, Neil Walkinshaw, Robert M. Hierons
-            <span class="periodical">In IEEE Conference on Software Testing, Verification and Validation (ICST), 2023</span>
-          </li>
-        </ul>
-        <hr>
-        <h3>2022</h3>
-        <ul class="publications">
-          <li>
-            <span class="row">
-              <span class="title col-md-10"><a href="https://link.springer.com/article/10.1007/s10009-022-00666-y">An Automated Framework for Verifying or Refuting Trace Properties of Extended Finite State Machines</a></span>
-              <span class="pdf col-md-2 text-right"><a href="https://eprints.whiterose.ac.uk/189243/">PDF</a></span>
-            </span>
-            <span class="authors">Ramsay Taylor, <strong>Michael Foster</strong>, Siobhán North</span>
-            <span class="periodical">In Software Tools for Technology Transfer, 2022</span>
-          </li>
-        </ul>
-        <hr>
-        <h3>2021</h3>
-        <ul class="publications">
-          <li>
-            <span class="row">
-              <span class="title col-md-10"><a href="https://link.springer.com/chapter/10.1007/978-3-031-04673-5_3">Reverse-Engineering EFSMs with Data Dependencies</a></span>
-              <span class="pdf col-md-2 text-right"><a href="https://eprints.whiterose.ac.uk/177494/">PDF</a></span>
-            </span>
-            <span class="authors"><strong>Michael Foster</strong>, John Derrick, Neil Walkinshaw</span>
-            <span class="periodical">In Testing Software and Systems (ICTSS) 2021</span>
-          </li>
-        </ul>
-        <hr>
-        <h3>2020</h3>
-        <ul class="publications">
-          <li>
-            <span class="row">
-              <span class="title col-md-10"><a href="https://doi.org/10.1145/3377930.3389830">Do sophisticated evolutionary algorithms perform better than simple ones?</a></span>
-              <span class="pdf col-md-2 text-right"><a href="https://eprints.whiterose.ac.uk/159919/">PDF</a></span>
-            </span>
-            <span class="authors"><strong>Michael Foster</strong>, Matthew Hughes, George O'Brien, Pietro S. Oliveto, James Pyle, Dirk Sudholt, and James Williams</span>
-            <span class="periodical">In Proceedings of the 2020 Genetic and Evolutionary Computation Conference, 2020</span>
-          </li>
-          <li>
-            <span class="title"><a href="https://www.isa-afp.org/entries/Extended_Finite_State_Machines.html">A formal model of extended finite state machines</a></span>
-            <span class="authors"><strong>Michael Foster</strong>, Achim D. Brucker, Ramsay G. Taylor, John Derrick</span>
-            <span class="periodical">Archive of Formal Proofs</span>
-          </li>
-          <li>
-            <span class="title"><a href="https://www.isa-afp.org/entries/Extended_Finite_State_Machine_Inference.html">Inference of extended finite state machines</a></span>
-            <span class="authors"><strong>Michael Foster</strong>, Achim D. Brucker, Ramsay G. Taylor, John Derrick</span>
-            <span class="periodical">Archive of Formal Proofs</span>
-          </li>
-        </ul>
-        <hr />
-        <h3>2019</h3>
-        <ul class="publications">
-          <li>
-            <span class="row">
-              <span class="title col-md-10"><a href="https://doi.org/10.1007/978-3-030-30446-1_14">Incorporating data into EFSM inference</a></span>
-              <span class="pdf col-md-2 text-right"><a href="https://ore.exeter.ac.uk/repository/handle/10871/38387">PDF</a></span>
-            </span>
-            <span class="authors"><strong>Michael Foster</strong>, Achim D. Brucker, Ramsay G. Taylor, Siobhán North, John Derrick</span>
-            <span class="periodical">In Software Engineering and Formal Methods, 2019</span>
-          </li>
-        </ul>
-        <hr />
-        <h3>2018</h3>
-        <ul class="publications">
-          <li>
-            <span class="row">
-              <span class="title col-md-10"><a href="https://doi.org/10.1007/978-3-030-30446-1_14">Formalising extended finite state machine transition merging</a></span>
-              <span class="pdf col-md-2 text-right"><a href="https://ore.exeter.ac.uk/repository/handle/10871/40034">PDF</a></span>
-            </span>
-
-            <span class="authors"><strong>Michael Foster</strong>, Achim D. Brucker, Ramsay G. Taylor, John Derrick</span>
-            <span class="periodical">In Proceedings of the 20th International Conference on Formal Engineering Methods, 2018</span>
-          </li>
-        </ul>
-      </div>
-    </div><!-- row.publications -->
   </div>
-  <footer class="text-light bg-dark">
+  <footer class="text-light bg-dark fixed-bottom">
     <div class="text-center" style="padding: 15px;">
       &copy; Copyright 2020 Michael Foster.
     </div>
